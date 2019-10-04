@@ -1,0 +1,9 @@
+<div class="container">
+    <h3 [class.success]=istrue>This is demo!</h3>
+    <p [class.style]=istrue><b>Hello</b></p>
+    <p>{{name}}</p>
+    <input type="text" [disabled]=istrue class="form-control" [(ngModel)]="name"/>
+    <button type="button" (click)=onclick() [disabled]=iserror class="btn btn-danger">Change Style!</button>
+    <p>{{name | uppercase}}</p>
+    <P>{{date | date:'fullDate'}}</P>
+</div>

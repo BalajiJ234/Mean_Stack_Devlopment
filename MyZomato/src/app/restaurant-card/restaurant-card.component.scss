@@ -1,0 +1,22 @@
+.card-wrapper{
+    display: inline-block;
+    box-shadow: 0 3px 5px -2px #777;
+    padding: 20px;
+    margin:20px;
+    }
+    
+    .restaurant-image img{
+    height: 250px;
+    }
+    .restaurant-description{
+    text-align: center;
+    }
+    
+    .restaurant-name{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0;
+    }
+    .restaurant-locality{
+    margin: 10px 0;
+    }
